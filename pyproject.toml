@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "average_time"
+version = "1.0.0"
+authors = [
+    {name = "Francisco Rotea", email = "francisco.rotea@gmail.com"},
+]
+description = "A simple script to calculate the average time worked in a week."
+readme = "README.md"
+
+[project.scripts]
+average_time = "average_time.__main__:main"
+
