@@ -1,18 +1,20 @@
 # Average time calculator
 
-A simple script to calculate the average hours worked in a week at CNEA.
+A simple script without dependencies to calculate the average hours worked in a week at CNEA.
 
 ## Installation
 
 Install this package as:
 
 ```
-  pip install average_time
+pip install average_time
 ```
 
 ## How to use
 
 Run `average_time` in the command prompt. Then, enter the time of arrival and departure in the format `HHmm HHmm` (where `HH`: hours and `mm`: minutes). To stop adding timestamps, type `end`.
+
+**Note:** Use a 24-hour format!
 
 ## Example
 
