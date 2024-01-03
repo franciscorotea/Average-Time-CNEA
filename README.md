@@ -7,7 +7,7 @@ A simple script without dependencies to calculate the average hours worked in a 
 Clone this repository to the desired location, move to that directory (`cd C:\path\to\install\Average-Time-CNEA`) and install this package as:
 
 ```
-pip install average_time
+python -m pip install .
 ```
 
 ## How to use
